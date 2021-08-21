@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.recent-match-card {
+  background-color: #0f172a;
+  border-radius: 16px;
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.recent-logo {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-card {
+    width: 30%;
+  }
+  .recent-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .recent-logo {
+    width: 220px;
+    height: 200px;
+  }
+}
+.recent-competing-team {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.recent-result {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.recent-status {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .recent-competing-team {
+    font-size: 24px;
+  }
+  .recent-result {
+    font-size: 18px;
+  }
+  .recent-status {
+    font-size: 22px;
+  }
+}
+.match-win {
+  color: #18ed66;
+}
+.match-loss {
+  color: #e31a1a;
+}

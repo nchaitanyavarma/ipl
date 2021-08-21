@@ -1,0 +1,127 @@
+.latest-matches-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.latest-match-heading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.latest-bg-card {
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding: 20px 16px 20px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.latest-team-details-logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media screen and (min-width: 768px) {
+  .latest-bg-card {
+    flex-direction: row;
+  }
+  .latest-team-details-logo-card {
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+}
+.latest-team-details {
+  width: 70%;
+  padding-right: 12px;
+}
+.latest-matches-innings-card {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media screen and (min-width: 768px) {
+  .latest-team-details {
+    width: 45%;
+  }
+  .latest-matches-innings-card {
+    width: 30%;
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+}
+.latest-matches-component-team-logo {
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .latest-matches-component-team-logo {
+    width: 210px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .latest-matches-component-team-logo {
+    width: 240px;
+  }
+}
+
+.latest-matches-competing-team {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.latest-matches-date {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.latest-matches-venue-result {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+hr {
+  width: 100%;
+  background-color: #475569;
+}
+@media screen and (min-width: 768px) {
+  hr {
+    display: none;
+  }
+  .latest-matches-competing-team {
+    font-size: 28px;
+  }
+  .latest-matches-date {
+    font-size: 24px;
+  }
+  .latest-matches-venue-result {
+    font-size: 18px;
+  }
+}
+
+.latest-matches-innings-headings {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.latest-matches-innings-para {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .latest-matches-innings-headings {
+    font-size: 26px;
+  }
+  .latest-matches-innings-para {
+    font-size: 20px;
+  }
+}

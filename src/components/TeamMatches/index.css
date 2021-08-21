@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.team-matches-container {
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 12px 30px 12px;
+}
+.team-matches-bg {
+  width: 90%;
+}
+.team-banner {
+  width: 100%;
+  border-radius: 12px;
+}
+.recent-matches-ul-card {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.rcb {
+  background-color: #a4261d;
+}
+.dc {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+.csk {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+.srh {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+.rr {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+.mi {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+.kp {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.kkr {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
